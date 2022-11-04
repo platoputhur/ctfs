@@ -1,0 +1,25 @@
+===============================================================
+Gobuster v3.2.0-dev
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.21.245
+[+] Method:                  GET
+[+] Threads:                 100
+[+] Wordlist:                /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.2.0-dev
+[+] Extensions:              php,txt,html
+[+] Timeout:                 10s
+===============================================================
+2022/11/03 23:12:01 Starting gobuster in directory enumeration mode
+===============================================================
+/.html                (Status: 403) [Size: 292]
+/index.html           (Status: 200) [Size: 11321]
+/.php                 (Status: 403) [Size: 291]
+/robots.txt           (Status: 200) [Size: 929]
+/simple               (Status: 301) [Size: 313] [--> http://10.10.21.245/simple/]
+/.php                 (Status: 403) [Size: 291]
+/.html                (Status: 403) [Size: 292]
+Progress: 326572 / 326576 (100.00%)===============================================================
+2022/11/03 23:22:20 Finished
+===============================================================
