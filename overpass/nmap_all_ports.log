@@ -1,0 +1,1 @@
+# Nmap 7.93 scan initiated Sat Nov  5 19:26:35 2022 as: nmap -p- -oN nmap_all_ports.log 10.10.35.206
