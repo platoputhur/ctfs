@@ -1,0 +1,31 @@
+===============================================================
+Gobuster v3.2.0-dev
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.214.164/content
+[+] Method:                  GET
+[+] Threads:                 100
+[+] Wordlist:                /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.2.0-dev
+[+] Extensions:              txt,html,php
+[+] Timeout:                 10s
+===============================================================
+2022/11/06 15:16:42 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.html                (Status: 403) [Size: 278]
+[2K/.php                 (Status: 403) [Size: 278]
+[2K/images               (Status: 301) [Size: 323] [--> http://10.10.214.164/content/images/]
+[2K/index.php            (Status: 200) [Size: 2199]
+[2K/license.txt          (Status: 200) [Size: 15410]
+[2K/js                   (Status: 301) [Size: 319] [--> http://10.10.214.164/content/js/]
+[2K/changelog.txt        (Status: 200) [Size: 18013]
+[2K/inc                  (Status: 301) [Size: 320] [--> http://10.10.214.164/content/inc/]
+[2K/as                   (Status: 301) [Size: 319] [--> http://10.10.214.164/content/as/]
+[2K/_themes              (Status: 301) [Size: 324] [--> http://10.10.214.164/content/_themes/]
+[2K/attachment           (Status: 301) [Size: 327] [--> http://10.10.214.164/content/attachment/]
+[2K/.php                 (Status: 403) [Size: 278]
+[2K/.html                (Status: 403) [Size: 278]
+===============================================================
+2022/11/06 15:26:45 Finished
+===============================================================
