@@ -1,0 +1,45 @@
+# Nmap 7.93 scan initiated Mon Nov  7 21:47:45 2022 as: nmap -sV -sC -oN nmap.log 10.10.235.41
+Nmap scan report for 10.10.235.41
+Host is up (0.19s latency).
+Not shown: 994 closed tcp ports (conn-refused)
+PORT    STATE SERVICE     VERSION
+22/tcp  open  ssh         OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 992331bbb1e943b756944cb9e82146c5 (RSA)
+|   256 57c07502712d193183dbe4fe679668cf (ECDSA)
+|_  256 46fa4efc10a54f5757d06d54f6c34dfe (ED25519)
+80/tcp  open  http        Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Skynet
+110/tcp open  pop3        Dovecot pop3d
+|_pop3-capabilities: SASL AUTH-RESP-CODE PIPELINING RESP-CODES TOP CAPA UIDL
+139/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+143/tcp open  imap        Dovecot imapd
+|_imap-capabilities: OK ENABLE SASL-IR IMAP4rev1 LITERAL+ IDLE LOGINDISABLEDA0001 more LOGIN-REFERRALS have capabilities Pre-login ID listed post-login
+445/tcp open  netbios-ssn Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)
+Service Info: Host: SKYNET; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: 2h00m00s, deviation: 3h27m51s, median: 0s
+| smb2-time: 
+|   date: 2022-11-07T16:18:31
+|_  start_date: N/A
+|_nbstat: NetBIOS name: SKYNET, NetBIOS user: <unknown>, NetBIOS MAC: 000000000000 (Xerox)
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled but not required
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.3.11-Ubuntu)
+|   Computer name: skynet
+|   NetBIOS computer name: SKYNET\x00
+|   Domain name: \x00
+|   FQDN: skynet
+|_  System time: 2022-11-07T10:18:31-06:00
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov  7 21:48:38 2022 -- 1 IP address (1 host up) scanned in 53.10 seconds

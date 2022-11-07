@@ -1,0 +1,28 @@
+===============================================================
+Gobuster v3.2.0-dev
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.235.41
+[+] Method:                  GET
+[+] Threads:                 100
+[+] Wordlist:                /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.2.0-dev
+[+] Extensions:              txt,html,php
+[+] Timeout:                 10s
+===============================================================
+2022/11/07 21:54:52 Starting gobuster in directory enumeration mode
+===============================================================
+/.php                 (Status: 403) [Size: 277]
+/.html                (Status: 403) [Size: 277]
+/index.html           (Status: 200) [Size: 523]
+/admin                (Status: 301) [Size: 312] [--> http://10.10.235.41/admin/]
+/css                  (Status: 301) [Size: 310] [--> http://10.10.235.41/css/]
+/js                   (Status: 301) [Size: 309] [--> http://10.10.235.41/js/]
+/config               (Status: 301) [Size: 313] [--> http://10.10.235.41/config/]
+/ai                   (Status: 301) [Size: 309] [--> http://10.10.235.41/ai/]
+/squirrelmail         (Status: 301) [Size: 319] [--> http://10.10.235.41/squirrelmail/]
+Progress: 114045 / 326576 (34.92%)[ERROR] 2022/11/07 21:58:33 [!] Get "http://10.10.235.41/photoobjects.txt": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+/.php                 (Status: 403) [Size: 277]
+/.html                (Status: 403) [Size: 277]
+Progress: 201770 / 326576 (61.78%)
