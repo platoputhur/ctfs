@@ -1,0 +1,39 @@
+===============================================================
+Gobuster v3.2.0-dev
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.37.45/r/b
+[+] Method:                  GET
+[+] Threads:                 100
+[+] Wordlist:                /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.2.0-dev
+[+] Extensions:              php,txt,html
+[+] Timeout:                 10s
+===============================================================
+2022/11/08 19:53:44 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/index.html           (Status: 301) [Size: 0] [--> ./]
+[2K/http%3a%2f%2fwww.html (Status: 301) [Size: 0] [--> /r/b/http:/www.html]
+[2K/http%3a%2f%2fwww.php (Status: 301) [Size: 0] [--> /r/b/http:/www.php]
+[2K/http%3a%2f%2fwww.txt (Status: 301) [Size: 0] [--> /r/b/http:/www.txt]
+[2K/http%3a%2f%2fwww     (Status: 301) [Size: 0] [--> /r/b/http:/www]
+[2K/http%3a%2f%2fyoutube (Status: 301) [Size: 0] [--> /r/b/http:/youtube]
+[2K/http%3a%2f%2fyoutube.php (Status: 301) [Size: 0] [--> /r/b/http:/youtube.php]
+[2K/http%3a%2f%2fyoutube.html (Status: 301) [Size: 0] [--> /r/b/http:/youtube.html]
+[2K/http%3a%2f%2fyoutube.txt (Status: 301) [Size: 0] [--> /r/b/http:/youtube.txt]
+[2K/http%3a%2f%2fblogs.txt (Status: 301) [Size: 0] [--> /r/b/http:/blogs.txt]
+[2K/http%3a%2f%2fblogs.html (Status: 301) [Size: 0] [--> /r/b/http:/blogs.html]
+[2K/http%3a%2f%2fblogs   (Status: 301) [Size: 0] [--> /r/b/http:/blogs]
+[2K/http%3a%2f%2fblogs.php (Status: 301) [Size: 0] [--> /r/b/http:/blogs.php]
+[2K/http%3a%2f%2fblog    (Status: 301) [Size: 0] [--> /r/b/http:/blog]
+[2K/http%3a%2f%2fblog.html (Status: 301) [Size: 0] [--> /r/b/http:/blog.html]
+[2K/http%3a%2f%2fblog.txt (Status: 301) [Size: 0] [--> /r/b/http:/blog.txt]
+[2K/http%3a%2f%2fblog.php (Status: 301) [Size: 0] [--> /r/b/http:/blog.php]
+[2K/**http%3a%2f%2fwww   (Status: 301) [Size: 0] [--> /r/b/%2A%2Ahttp:/www]
+[2K/**http%3a%2f%2fwww.php (Status: 301) [Size: 0] [--> /r/b/%2A%2Ahttp:/www.php]
+[2K/**http%3a%2f%2fwww.txt (Status: 301) [Size: 0] [--> /r/b/%2A%2Ahttp:/www.txt]
+[2K/**http%3a%2f%2fwww.html (Status: 301) [Size: 0] [--> /r/b/%2A%2Ahttp:/www.html]
+===============================================================
+2022/11/08 20:03:52 Finished
+===============================================================

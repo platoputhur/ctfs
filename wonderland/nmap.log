@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Tue Nov  8 19:46:07 2022 as: nmap -sC -sV -O -oG nmap.log 10.10.37.45
+Host: 10.10.37.45 ()	Status: Up
+Host: 10.10.37.45 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Golang net|http server (Go-IPFS json-rpc or InfluxDB API)/	Ignored State: closed (998)	Seq Index: 258	IP ID Seq: All zeros
+# Nmap done at Tue Nov  8 19:46:44 2022 -- 1 IP address (1 host up) scanned in 38.01 seconds
