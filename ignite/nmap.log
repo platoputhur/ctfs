@@ -1,0 +1,13 @@
+# Nmap 7.93 scan initiated Wed Nov 16 23:38:21 2022 as: nmap -sC -sV -oN nmap.log 10.10.146.191
+Nmap scan report for 10.10.146.191
+Host is up (0.22s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+| http-robots.txt: 1 disallowed entry 
+|_/fuel/
+|_http-title: Welcome to FUEL CMS
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov 16 23:38:43 2022 -- 1 IP address (1 host up) scanned in 21.98 seconds
