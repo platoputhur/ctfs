@@ -1,0 +1,35 @@
+# Nmap 7.93 scan initiated Thu Nov 17 23:39:45 2022 as: nmap -sC -sV -oN nmap.log -O 10.10.203.217
+Nmap scan report for 10.10.203.217
+Host is up (0.20s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 debc3a885814cf6e979ce6e1e9f9888d (RSA)
+|   256 500eaba70143d033068ecd99aa0dc3ac (ECDSA)
+|_  256 b2881add1eb5ce3ed50c050a19a0e532 (ED25519)
+80/tcp open  http    Apache httpd 2.4.53 ((Debian))
+|_http-server-header: Apache/2.4.53 (Debian)
+|_http-title: Login
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.93%E=4%D=11/17%OT=22%CT=1%CU=35429%PV=Y%DS=2%DC=I%G=Y%TM=637679
+OS:09%P=aarch64-unknown-linux-gnu)SEQ(SP=102%GCD=1%ISR=10B%TI=Z%CI=Z%II=I%T
+OS:S=A)SEQ(SP=103%GCD=1%ISR=10C%TI=Z%CI=Z%TS=A)OPS(O1=M506ST11NW7%O2=M506ST
+OS:11NW7%O3=M506NNT11NW7%O4=M506ST11NW7%O5=M506ST11NW7%O6=M506ST11)WIN(W1=F
+OS:4B3%W2=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(R=Y%DF=Y%T=40%W=F507%O=M
+OS:506NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T
+OS:4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+
+OS:%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y
+OS:%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%
+OS:RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov 17 23:40:17 2022 -- 1 IP address (1 host up) scanned in 31.70 seconds
