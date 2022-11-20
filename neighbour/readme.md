@@ -16,5 +16,5 @@ export hip=10.18.25.169
 - checking the source of the page shows guest login credentials. Also shows the possibility of `admin` username.
 - logging into the webapp using the guest credentials shows the welcome page
 - looking at the url of the welcome page we can see it has query param `guest` which is the current username
-- now trying the same with `admin` as the username
+  - now trying the same with `admin` as the query parameter in the url
 - this gives the flag.
