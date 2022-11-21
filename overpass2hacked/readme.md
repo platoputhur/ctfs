@@ -1,7 +1,7 @@
-# Write up for the tryhackme ctf: [overpass2hacked](https://tryhackme.com/room/overpass2hacked)
+# Write up for the tryhackme room: [overpass2hacked](https://tryhackme.com/room/overpass2hacked)
 
 - open wireshark and load the pcap file
-- considering the question asking for a url for reverse shell upload, I thought of searching for the string related to revershell and hacking. 
+- considering the question is asking for a url for reverse shell upload, I thought of searching for the string related to reverse shell and hacking. 
 - I searched for the string `payload` which lead to the answer for the first flag
 - once you find the post req in the packet info, open it and copy the content as text to get the revere shell payload contents and that's the second flag.
 - the next question is asking for password. so in linux you would need password whenever you use `sudo`, so search for the string `sudo` and analyse the next few packets to get the answer for the next flag.
